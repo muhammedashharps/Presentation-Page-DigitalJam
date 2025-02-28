@@ -101,6 +101,7 @@ st.markdown("""
 st.title("🔮 Perspective Matters")
 st.subheader("Next Gen AI Debate App To Challenge Your Beliefs")
 
+
 st.markdown('<div class="border"></div>', unsafe_allow_html=True)
 st.download_button(label="Click Here To Download The Android App",
                        data=open("perspective_matters.apk", "rb").read(),
@@ -110,10 +111,11 @@ st.download_button(label="Click Here To Download The Android App",
 # App description
 
 st.divider()
+st.title("🎥 Demos")
 
 # Main content
 col1, col2, col3 = st.columns([3, 3, 3])
-st.title("🎥 Demos")
+
 with col1:
     video_file = open("org1.mp4", 'rb')
     video_bytes = video_file.read()
